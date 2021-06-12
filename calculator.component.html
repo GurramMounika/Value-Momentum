@@ -1,0 +1,10 @@
+<p>calculator works!</p>
+num1:<input type='number' #num1>
+num2:<input type='number' #num2>
+<button (click)='add(num1.value,num2.value)'>ADD</button>
+<button (click)='sub(num1.value,num2.value)'>SUB</button>
+<button (click)='mul(num1.value,num2.value)'>MUL</button>
+<button (click)='div(num1.value,num2.value)'>DIV</button>
+<br>
+<br>
+result:{{result}}
